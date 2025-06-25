@@ -437,7 +437,7 @@ Utilisez le menu pour exporter vos données en JSON.`);
 
                 <button
                   onClick={handleSubmit}
-                  className={`w-full bg-${currentTheme.primary} hover:bg-${currentTheme.primaryHover} text-white p-4 rounded-lg transition-colors font-medium text-base flex items-center justify-center gap-2 mt-6`}
+                  className="w-full bg-white hover:bg-gray-100 text-black p-4 rounded-lg transition-colors font-medium text-base flex items-center justify-center gap-2 mt-6 border border-gray-300"
                 >
                   <Save className="w-5 h-5" />
                   {editingBet ? 'Modifier' : 'Ajouter'}
