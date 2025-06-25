@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { PlusCircle, TrendingUp, TrendingDown, DollarSign, Target, Calendar, Edit2, Trash2, BarChart3, X, Menu, Save } from 'lucide-react';
 
 const SportsBook = () => {
+  console.log('🚀 myHOMECas - Version mise à jour déployée !', new Date().toLocaleString());
+
   const [bets, setBets] = useState(() => {
     const saved = localStorage.getItem('sportsbook-bets');
     return saved ? JSON.parse(saved) : [];
