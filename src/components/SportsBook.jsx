@@ -47,35 +47,35 @@ const SportsBook = () => {
   // Thèmes disponibles
   const themes = {
     purple: {
-      name: 'Violet Classique',
+      name: 'Mauve',
       gradient: 'from-slate-900 via-purple-900 to-slate-900',
       primary: 'purple-600',
       primaryHover: 'purple-700',
       accent: 'purple-400'
     },
     blue: {
-      name: 'Bleu Océan',
+      name: 'Bleu',
       gradient: 'from-slate-900 via-blue-900 to-slate-900',
       primary: 'blue-600',
       primaryHover: 'blue-700',
       accent: 'blue-400'
     },
     green: {
-      name: 'Vert Émeraude',
+      name: 'Vert',
       gradient: 'from-slate-900 via-emerald-900 to-slate-900',
       primary: 'emerald-600',
       primaryHover: 'emerald-700',
       accent: 'emerald-400'
     },
     red: {
-      name: 'Rouge Passion',
+      name: 'Rouge',
       gradient: 'from-slate-900 via-red-900 to-slate-900',
       primary: 'red-600',
       primaryHover: 'red-700',
       accent: 'red-400'
     },
     orange: {
-      name: 'Orange Sunset',
+      name: 'Orange',
       gradient: 'from-slate-900 via-orange-900 to-slate-900',
       primary: 'orange-600',
       primaryHover: 'orange-700',
