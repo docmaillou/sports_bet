@@ -86,22 +86,32 @@ Vous pouvez facilement personnaliser :
 - Les couleurs et le style via Tailwind CSS
 - Ajouter de nouvelles fonctionnalités
 
-## Déploiement
+## Déploiement sur GitHub Pages
 
-Pour déployer l'application :
+### Méthode automatique (recommandée)
+L'application se déploie automatiquement sur GitHub Pages à chaque push sur la branche `main` grâce à GitHub Actions.
 
-1. Construisez la version de production :
+### Méthode manuelle
+1. Installez gh-pages si ce n'est pas déjà fait :
    ```bash
-   npm run build
+   npm install --save-dev gh-pages
    ```
 
-2. Le dossier `dist` contient les fichiers prêts pour le déploiement
+2. Construisez et déployez :
+   ```bash
+   npm run deploy
+   ```
 
-3. Vous pouvez déployer sur :
-   - Vercel
-   - Netlify
-   - GitHub Pages
-   - Ou tout autre service d'hébergement statique
+### Configuration importante
+- Le fichier `vite.config.js` est configuré avec `base: '/sports_bet/'` pour GitHub Pages
+- Changez cette valeur selon le nom de votre repository GitHub
+- L'application sera accessible à : `https://votre-username.github.io/sports_bet/`
+
+### Autres plateformes
+Vous pouvez aussi déployer sur :
+- Vercel
+- Netlify
+- Ou tout autre service d'hébergement statique
 
 ## Support
 
